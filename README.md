@@ -10,6 +10,12 @@ after each commit to the main branch it does a few test
 
 - after deployment on dockerhub we can pull the image to local system 
 
-```docker pull anonymouspi/flask-app```
+```bash 
+docker pull anonymouspi/web-app
+```
+
 - run the container locally 
-```	docker run -p 5000:5000 anonymouspi/flask-app:latest ```
+
+```bash
+	docker run -p 5000:5000 anonymouspi/web-app:latest 
+```
